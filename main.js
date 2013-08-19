@@ -11,7 +11,7 @@ Main.prototype = (function (prototype) {
         return this.teUrl.value;
     };
     prototype.setUrl = function (url) {
-        this.theUrl.value = url;
+        this.teUrl.value = url;
     };
     prototype.decreaseName = function (name) {
         return name.substring(0, name.length - 1) + String.fromCharCode((name[name.length - 1].charCodeAt() - 1));
